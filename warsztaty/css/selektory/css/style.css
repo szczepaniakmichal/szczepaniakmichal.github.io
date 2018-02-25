@@ -31,3 +31,21 @@ p {
     font-size: 20px;
 }
 
+#lista3 li:nth-child(3n+4){   /* zaczyna od 4 elementu */
+    color: blueviolet;
+    font-size: 20px;
+}
+/* selektor bliskieo rodzeństwa */
+header h2 + h3 {
+    color: red;
+}
+
+/* selektor rodzeństwa */
+section h2 ~ h3 {
+    color: darkgoldenrod;
+}
+
+/* selektor wykluczający */
+ul li:not(.last-item){
+    color: coral;
+}
