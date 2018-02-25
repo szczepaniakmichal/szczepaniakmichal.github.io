@@ -1,0 +1,33 @@
+/* selektor znacznika */
+p {
+    color: orange;
+}
+
+/* selektor id*/
+#id-text {
+    color: blue;
+    font-size: 22px;
+}
+
+/*łączenie selektorów*/
+.link, span, #title {
+    background-color: red;
+    color: green;
+}
+
+/* selektor bezpośredniego potomka */
+#potomek-bezposredni > p {
+    color: chartreuse;
+}
+
+/* selektor wszystkich elementow potomnych */
+#lista a {
+    font-weight: bold;
+}
+
+/* selektor konkretnego elemntu */
+#lista2 li:nth-child(2){
+    color: blueviolet;
+    font-size: 20px;
+}
+
