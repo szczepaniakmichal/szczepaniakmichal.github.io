@@ -49,3 +49,9 @@ section h2 ~ h3 {
 ul li:not(.last-item){
     color: coral;
 }
+
+/* selektor atrybutu */
+li a[href="http://google.pl"] {
+    background-color: darkblue;
+    color: white;
+}
