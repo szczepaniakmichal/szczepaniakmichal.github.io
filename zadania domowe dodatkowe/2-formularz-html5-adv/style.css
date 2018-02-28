@@ -1,0 +1,20 @@
+h1{
+    color: #00f;
+}
+h2{
+    color: #99f;
+}
+.ramka{
+    position: relative;
+    border: 3px solid #b3b3cc;
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+.stylNaglowka{
+    position: absolute;
+    top: -27px;
+    left:10px;
+    background-color: #fff;
+    padding: 0 10px;
+}

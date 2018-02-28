@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A Simple Form</h1>
+    <h2>Form Fundamentals</h2>
+    <form action="autocomplete">
+    <!-- Pierwsze pole formularza tytuł: Custormer Info -->
+    <div class="ramka">
+      <p class="stylNaglowka">Customer Info</p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" size="40" required> <br><br>
+      <label for="telefon">Telephone:</label>
+      <input type="text" id="telefon" placeholder="Pattem 1-234-567-8910" size="40"
+      pattern="[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{4}" required> <br><br>
+      <label for="email">Email address:</label>
+      <input type="email" id="email" placeholder="Enter your email address" size="40" multiple required> <br><br>
+      </div>
+      <!-- Drugie pole formularza tytuł: Books -->
+      <div class="ramka">
+          <p class="stylNaglowka">Books</p>
+          <input list="choice" name="list" size="40">
+          <datalist id="choice">
+            <option value="Mały Książe">
+            <option value="Zeznania Niekrytego Krytyka">
+            <option value="Head first HTML">
+            <option value="Head first HTML5">
+            <option value="Head first Java Script">
+          </datalist>
+          <label for="Quantity">Quantity(Maximum 5):</label>
+          <input type="number" id="Quantity" min="1" max="5">
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
