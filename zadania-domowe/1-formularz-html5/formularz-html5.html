@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>formularz-html5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="https://formspree.io/mssk87@gmail.com"
       method="POST">
-    <label for="name">Imię:</label> <br>
-    <input type="text" name="Imię" id="name"> <br>
-    <label for="surname">Nazwisko:</label> <br>
-    <input type="text" name="Nazwisko" id="surname"> <br>
-    <label for="email">e-mail:</label> <br>
-    <input type="email" name="e-mail" id="email"> <br>
-    <label for="tel">Telefon:</label> <br>
-    <input type="text" name="Telefon" id="tel"> <br><br>
+    <label for="name">Imię:</label> 
+    <input type="text" name="Imię" id="name"> 
+    <label for="surname">Nazwisko:</label> 
+    <input type="text" name="Nazwisko" id="surname"> 
+    <label for="email">e-mail:</label> 
+    <input type="email" name="e-mail" id="email"> 
+    <label for="tel">Telefon:</label> 
+    <input type="text" name="Telefon" id="tel"> 
     <label for="city">Miasto:</label> 
     <select name="Miasto" id="city">
         <option value="Krakow">Kraków</option>
         <option value="Warszawa">Warszawa</option>
         <option value="Gdansk">Gdańsk</option>
-    </select> <br><br>
-    Płeć: <br>
-    <input type="radio" name="Gender" value="kobieta" id="woman">
-    <label for="woman">Kobieta</label> <br>
-    <input type="radio" name="Gender" value="meżczyzna" id="man">
-    <label for="man">Mężczyzna</label> <br> <br>
-    <input type="checkbox" value="Yes" name="Accept" id="acceptance">
-    <label for="acceptance">Wyrażam zgodę na przetwarzanie danych osobowych</label> <br> <br>
-    <label for="area">Teść wiadomości:</label> <br>
-    <textarea name="Wiadomość" id="area" cols="40" rows="10"></textarea> <br>
-    <input type="submit" value="Wyślij"> <br>
+    </select> 
+    <div>Wybierz płeć:</div>
+        <div> 
+            <input type="radio" name="Gender" value="kobieta" id="woman"> 
+            <label for="woman">Kobieta</label>
+        </div>
+        <div>
+            <input type="radio" name="Gender" value="meżczyzna" id="man"> 
+            <label for="man">Mężczyzna</label> 
+        </div>
+        <div> 
+            <input type="checkbox" value="Yes" name="Accept" id="acceptance">
+            <label for="acceptance">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        </div>  
+    <label for="area">Teść wiadomości:</label> 
+    <textarea name="Wiadomość" id="area" cols="20" rows="3"></textarea> <br>
+    <input type="submit" value="send"> 
 </form>
     
 </body>

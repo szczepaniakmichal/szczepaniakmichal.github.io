@@ -1,0 +1,21 @@
+#p1{
+    color: blue;
+}
+#p1:target{
+    color: red;
+}
+a:visited{
+    color: aqua;
+}
+a:link{
+    color: gold;
+}
+.clients-list div:nth-child(even){
+    background-color: olive;
+}
+.clients-list div:nth-child(odd){
+    background-color: hotpink;
+}
+.clients-list div:nth-child(5n+4){
+    background-color: #fff;
+}
