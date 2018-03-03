@@ -1,0 +1,11 @@
+#k1{
+   float: left;
+    margin: 10px;
+}
+#k2{
+   float: right;    
+    margin: 10px;
+}
+#p3{
+    clear: both;
+}
