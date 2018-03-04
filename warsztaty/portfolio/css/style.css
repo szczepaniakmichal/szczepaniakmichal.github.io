@@ -1,21 +1,26 @@
 *{
    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     margin: 0;
     font-weight: 300;
-    
-    
 }
+section{
+    background-color: #f9fcfe;
+}
+
+/* nawigacja */
+
 #main-nav{
     width: 100%;
     background-color: #fff;
     position: fixed;
     top:0;
     z-index: 2;
-    
 }
 #main-nav ul{
     margin: 20px;
@@ -29,6 +34,9 @@ body{
     color: #1ac056;
     text-decoration: none;
 }
+
+/*Header*/
+
 #main-header{
     background-image: url("../img/header-background.jpg");
     background-size: cover;
@@ -52,9 +60,31 @@ body{
     font-weight: 200;
     font-size: 20px;
 }
-#main h3 span{
+span{
     color: #1ac056;
 }
 #main h3{
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#fotoDowod{
+    margin-left: 190px;
+    margin-right: 190px;
+    float: left;
+    width: 20%;
+    border: 14px #fff solid;
+    border-radius: 15px;
+}
+#main-paragraf{
+    margin-left: 20px;
+}
+#main{
+    height: 400px;
+    box-shadow: 1px 5px 5px lightgray;
+}
+#umiejetnosci h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
