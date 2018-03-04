@@ -63,11 +63,6 @@ section{
 span{
     color: #1ac056;
 }
-#main h3{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
 #fotoDowod{
     margin-left: 190px;
     margin-right: 190px;
@@ -83,8 +78,72 @@ span{
     height: 400px;
     box-shadow: 1px 5px 5px lightgray;
 }
-#umiejetnosci h3{
+
+/*Umiejętności*/
+
+#main h3, #umiejetnosci h3, #portfolio h3{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
 }
+#umiejetnosci{
+    height: 300px;
+    text-align: center;
+}
+#ikony figure{
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+/* Portfolio 
+}
+#fotoPortfolio{
+    text-align: center;
+}
+#fotoPortfolio div {
+    display: inline-block;
+}
+#fotoPortfolio div img{
+    width: 300px;
+}*/
+
+/* Portfolio */
+
+#portfolio .portfolio-item{
+    font-size: 0px;
+    text-align: center;
+}
+
+.portfolio-item{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    font-size: initial;
+}
+
+#portfolio .portfolio-items #portfolio-item-1{
+    background-image: url(../img/portfolio1.jpg);  
+}
+#portfolio .portfolio-items #portfolio-item-2{
+    background-image: url(../img/portfolio2.jpg); 
+}
+#portfolio .portfolio-items #portfolio-item-3{
+    background-image: url(../img/portfolio3.jpg); 
+}
+
+/* End Portfolio*/
+
+
+
+
+
+
+
+
+
+
+
