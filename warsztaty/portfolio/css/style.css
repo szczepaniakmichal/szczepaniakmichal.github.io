@@ -13,6 +13,10 @@ section{
     background-color: #f9fcfe;
 }
 
+p{
+    line-height: 25px;
+}
+
 /* nawigacja */
 
 #main-nav{
@@ -110,7 +114,7 @@ span{
 
 /* Portfolio */
 
-#portfolio .portfolio-item{
+#portfolio .portfolio-items{
     font-size: 0px;
     text-align: center;
 }
@@ -126,14 +130,58 @@ span{
 }
 
 #portfolio .portfolio-items #portfolio-item-1{
-    background-image: url(../img/portfolio1.jpg);  
+    background-image: url(../img/portfolio1.jpg);
 }
 #portfolio .portfolio-items #portfolio-item-2{
-    background-image: url(../img/portfolio2.jpg); 
+    background-image: url(../img/portfolio2.jpg);
 }
 #portfolio .portfolio-items #portfolio-item-3{
-    background-image: url(../img/portfolio3.jpg); 
+    background-image: url(../img/portfolio3.jpg);
 }
+
+#portfolio .portfolio-item-mask{
+    opacity: 0;
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+#portfolio .portfolio-item-mask:hover{
+    opacity: 1;
+}
+#portfolio .mask-content{
+    border: 1px solid white;
+    margin: 10px;
+    position: relative;
+    height: 330px;
+}
+
+#portfolio .mask-content-inner{
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 5px;
+    top:50%;
+    transform: translateY(-50%)
+}
+
+#portfolio .mask-content-inner h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#portfolio .mask-content-inner h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#portfolio .mask-content-inner .fa-check-circle:hover{
+    color: #1ac056;
+}
+
+
 
 /* End Portfolio*/
 
