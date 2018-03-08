@@ -1,0 +1,72 @@
+@media (max-width:992px){
+
+/* Header < 992px */
+    
+#foto{
+    height: 50vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 600px;  
+}
+    
+#container{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+}
+    
+#main-header .header-content {
+    padding: inherit;
+    transform: translateY(380%);
+    color: black;
+    } 
+
+.header-content{
+    display: block;
+    color: black;
+}
+}
+/*End Header < 992px */
+
+/* 993px < Header < 1170px */
+
+@media (min-width:993px) and (max-width:1170px){
+
+#container{
+    height: 100%;
+}
+
+#foto{
+    background-image: url("../obrazy/man-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%
+}
+
+#main-header .header-content{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 2vw;
+    padding: 40vh;
+}
+
+.header-content{
+   position: relative;
+}
+    
+.header-content h2{
+     position: absolute;
+     top:11vh;
+     left: 60vw;
+ }
+    
+.header-content h1{
+        position: absolute;
+        top:18vh;
+        left: 60vw;    
+}
+}
+/*End Header 993px < Header < 1170px */

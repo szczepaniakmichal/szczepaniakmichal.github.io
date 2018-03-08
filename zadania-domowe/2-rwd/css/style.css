@@ -1,0 +1,42 @@
+/*General*/
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: vardana;
+    line-height: 2.0;
+    font-size: 10px;
+}
+
+/*End General*/
+
+/* Header > 1171px */
+
+#container{
+    height: 100%;
+}
+
+#foto{
+    background-image:  url("../obrazy/man-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-header .header-content{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 35vh;
+    padding-left: 2vw;
+    font-size: 2vh;  
+}
+
+#main-header .header-content h1{
+    font-weight: 800;
+}
+
+/*End Header > 1171px */
