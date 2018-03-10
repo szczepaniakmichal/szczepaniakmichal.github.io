@@ -1,0 +1,15 @@
+boby{
+    padding-top: 70px;
+}
+.rotate img{
+    transform: rotate(-35deg);
+    transform-origin: 0% 0%;
+}
+
+.translate img{
+    transform: translate(150px, 300px)
+}
+
+.scale img{
+    transform: scale(0.3); /* można usunąc zero: .3 */
+}
