@@ -4,7 +4,7 @@
     
 #foto{
     height: 50vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     margin: 0 auto;
     max-width: 600px;  
 }

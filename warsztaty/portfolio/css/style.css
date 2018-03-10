@@ -97,7 +97,6 @@ span{
 #ikony figure{
     display: inline-block;
     margin: 20px;
-    
 }
 
 /* Portfolio 
@@ -181,9 +180,91 @@ span{
     color: #1ac056;
 }
 
-
-
 /* End Portfolio*/
+
+/* Contact */
+
+#contact{
+    background-color: #213b50;
+    font-size: 0px;
+    padding: 30px;
+    width: 100%;
+}
+
+input{
+    display: block;
+}
+
+input, textarea{
+    background-color: #213b50;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    background-color: #294b50;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#d1{
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    color: #fff;
+}
+
+#d2{
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    background-color: chartreuse;
+    position: relative;
+    left: 400px;
+    border: none;
+}
+
+textarea{
+    padding-top: 10px;
+    height: 50px;
+}
+
+address{
+    color: #fff;
+    font-size: 15px;
+}
+
+#footer_h1{
+    padding-bottom: 50px;
+}
+
+#address_d1, #address_d1{
+    padding-bottom: 20px;
+} 
+
+i{
+    border: 2px solid #000;
+    margin: 10px;
+   margin-top: 30px; 
+}
+
+footer p{
+    font-size: 12px;
+    padding-left:  50px;
+    background-color: #213b80;
+    color: #fff;
+}
+
+#i_footer{
+    border-style: none;
+    vertical-align: center;
+    margin: 0;
+}
+
+/* End Contact */
 
 
 
