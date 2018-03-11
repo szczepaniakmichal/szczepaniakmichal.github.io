@@ -29,20 +29,36 @@ var iter = 0;
 
     
 // break i continue
-for( var i=1; i<15; i++){
-    if( i>6 ){
-        break;
-    } else {
-        console.log("Obrót pętli nr " + i);
-    }
+//for( var i=1; i<15; i++){
+//    if( i>6 ){
+//        break;
+//    } else {
+//        console.log("Obrót pętli nr " + i);
+//    }
+//}
+//
+//
+//
+//for( var i=1; i<15; i++){
+//    if(i==4 || i==6 || i ==10){
+//        continue;
+//    } else {
+//        console.log("Iteracja nr " + i);
+//    }
+//}
+
+
+
+
+//pętla po obiektach
+
+var obiekt = {
+    imie: "Adam",
+    nazwisko: "Nowacki",
+    wzrost: 182,
+    oczy: "szare",
 }
 
-
-
-for( var i=1; i<15; i++){
-    if(i==4 || i==6 || i ==10){
-        continue;
-    } else {
-        console.log("Iteracja nr " + i);
-    }
+for( var property in obiekt ){
+    console.log( obiekt[property] );
 }
