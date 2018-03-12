@@ -1,6 +1,6 @@
 @media(max-width:1200px){
 
-    body{
+body{
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     margin: 0;
@@ -8,6 +8,7 @@
 }
 section{
     background-color: #f9fcfe;
+    display: block;
 }
 
 p{
@@ -25,7 +26,6 @@ p{
 }
 #main-nav ul{
     margin: 20px;
-/*    float: right;*/
 }
 #main-nav ul li{
     display: inline;
@@ -43,6 +43,7 @@ p{
     background-size: cover;
     color: #fff;
 }
+    
 #main-header .headre-content{
     padding: 30vh;
     text-align: center;
@@ -53,60 +54,54 @@ p{
     font-weight: 200;
     font-size: 50px;
 }
+    
 #main-header .headre-content h1 span{
     color: #1ac056;
     font-weight: 300;
 }
+    
 #main-header .headre-content h2{
     font-weight: 200;
     font-size: 20px;
 }
+    
 span{
     color: #1ac056;
 }
+    
 #fotoDowod{
     width: 100%;
     border: 14px #fff solid;
     border-radius: 15px;
     margin: 0 auto;
-    float: none;
+    display: block;
+
 }
 #main-paragraf{
     margin-left: 20px;
 }
+    
 #main{
     height: 400px;
     box-shadow: 1px 5px 5px lightgray;
+    display: block;
 }
 
 /*Umiejętności*/
 
 #main h3, #umiejetnosci h3, #portfolio h3{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    display: block;
 }
+    
 #umiejetnosci{
-    height: 300px;
     text-align: center;
     display: block;
 }
+    
 #ikony figure{
     display: block;
     margin: 20px;
 }
-
-/* Portfolio 
-}
-#fotoPortfolio{
-    text-align: center;
-}
-#fotoPortfolio div {
-    display: inline-block;
-}
-#fotoPortfolio div img{
-    width: 300px;
-}*/
 
 /* Portfolio */
 
@@ -129,9 +124,11 @@ span{
 #portfolio .portfolio-items #portfolio-item-1{
     background-image: url(../img/portfolio1.jpg);
 }
+    
 #portfolio .portfolio-items #portfolio-item-2{
     background-image: url(../img/portfolio2.jpg);
 }
+    
 #portfolio .portfolio-items #portfolio-item-3{
     background-image: url(../img/portfolio3.jpg);
 }
@@ -147,6 +144,7 @@ span{
 #portfolio .portfolio-item-mask:hover{
     opacity: 1;
 }
+    
 #portfolio .mask-content{
     border: 1px solid white;
     margin: 10px;

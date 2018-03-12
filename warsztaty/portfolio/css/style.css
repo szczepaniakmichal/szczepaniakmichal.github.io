@@ -28,7 +28,6 @@ p{
 }
 #main-nav ul{
     margin: 20px;
-/*    float: right;*/
 }
 #main-nav ul li{
     display: inline;
@@ -70,7 +69,6 @@ span{
 #fotoDowod{
     margin-left: 190px;
     margin-right: 190px;
-    float: left;
     width: 20%;
     border: 14px #fff solid;
     border-radius: 15px;
@@ -90,26 +88,16 @@ span{
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 #umiejetnosci{
-    height: 300px;
     text-align: center;
 }
+
 #ikony figure{
     display: inline-block;
     margin: 20px;
 }
 
-/* Portfolio 
-}
-#fotoPortfolio{
-    text-align: center;
-}
-#fotoPortfolio div {
-    display: inline-block;
-}
-#fotoPortfolio div img{
-    width: 300px;
-}*/
 
 /* Portfolio */
 
@@ -131,9 +119,11 @@ span{
 #portfolio .portfolio-items #portfolio-item-1{
     background-image: url(../img/portfolio1.jpg);
 }
+
 #portfolio .portfolio-items #portfolio-item-2{
     background-image: url(../img/portfolio2.jpg);
 }
+
 #portfolio .portfolio-items #portfolio-item-3{
     background-image: url(../img/portfolio3.jpg);
 }
@@ -146,9 +136,11 @@ span{
     position: absolute;
     transition: all 0.3s ease-in-out;
 }
+
 #portfolio .portfolio-item-mask:hover{
     opacity: 1;
 }
+
 #portfolio .mask-content{
     border: 1px solid white;
     margin: 10px;
