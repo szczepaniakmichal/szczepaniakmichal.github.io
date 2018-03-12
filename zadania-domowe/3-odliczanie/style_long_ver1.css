@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+#container{
+    width: 500px;
+    height: 300px;
+    
+}
+.kolor{
+    background-color: #000;
+    color: #fff;
+    width: 500px;
+    height: 300px;
+    font-size: 250px;
+    text-align: center;
+    position: absolute;
+}
+
+#P1{
+    font-size: 70px;
+    transform: translateY(140%);
+}
+
+ 
+
+#d10{
+    animation: znikanied10 ease-out 1s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied10{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d9{
+    animation: znikanied9 ease-out 2s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied9{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d8{
+    animation: znikanied8 ease-out 3s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied8{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d7{
+    animation: znikanied7 ease-out 4s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied7{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d6{
+    animation: znikanied6 ease-out 5s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied6{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d5{
+    animation: znikanied5 ease-out 6s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied5{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d4{
+    animation: znikanied4 ease-out 7s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied4{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d3{
+    animation: znikanied3 ease-out 8s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied3{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d2{
+    animation: znikanied2 ease-out 9s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied2{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
+#d1{
+    animation: znikanied1 ease-out 10s ;
+    animation-timing-function: steps(1);
+    animation-fill-mode: forwards;
+}
+
+@keyframes znikanied1{
+    0% {margin-left: 0px;}
+    100% {margin-left: -1000px;}
+}
+
