@@ -28,7 +28,7 @@ var iloscElementowTablicy = imiona.length;
 //console.log( imiona );
 
 
-// rozbijanie tablicyna ciag tekstowy
+// rozbijanie tablicy na ciag tekstowy
 var elementyTablicyString = imiona.join(", ");
 //console.log( elementyTablicyString);
 
