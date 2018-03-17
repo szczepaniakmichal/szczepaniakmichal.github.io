@@ -1,3 +1,5 @@
+/*General*/
+
 *{
    box-sizing: border-box;
     margin: 0;
@@ -10,12 +12,35 @@ body{
     font-weight: 300;
 }
 section{
+/*
+    padding:0 80px 100px;
+    width:100%;
+*/
     background-color: #f9fcfe;
 }
+
+/*
+section h2{
+    text-align:center;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+	font-weight: 300;
+    font-size:30px;
+}
+*/
+
+/*
+section h2 span{
+    color: #1ac056;
+	font-weight: 400;
+}
+*/
 
 p{
     line-height: 25px;
 }
+
+/*End General*/
 
 /* nawigacja */
 
@@ -27,16 +52,20 @@ p{
     z-index: 2;
 }
 #main-nav ul{
-    margin: 20px;
+    margin: 0;
+/*    float:right;*/
+
 }
 #main-nav ul li{
-    display: inline;
+    display: inline-block;
     padding: 20px 40px;
 }
 #main-nav ul li a{
     color: #1ac056;
     text-decoration: none;
 }
+
+/*End nawigacja*/
 
 /*Header*/
 
@@ -48,55 +77,72 @@ p{
 #main-header .headre-content{
     padding: 30vh;
     text-align: center;
-    
 }
+
 #main-header .headre-content h1{
     font-family: 'roboto', sans-serif;
     font-weight: 200;
     font-size: 50px;
 }
+
 #main-header .headre-content h1 span{
     color: #1ac056;
     font-weight: 300;
 }
+
 #main-header .headre-content h2{
     font-weight: 200;
-    font-size: 20px;
+    font-size: 30px;
 }
-span{
-    color: #1ac056;
+
+/*End Header*/
+
+/*
+#about{
+    overflow:hidden;
 }
-#fotoDowod{
-    margin-left: 190px;
-    margin-right: 190px;
-    width: 20%;
+*/
+
+#about img{
+    max-height:350px;
+    max-width:100%;
     border: 14px #fff solid;
     border-radius: 15px;
 }
-#main-paragraf{
-    margin-left: 20px;
+
+/*
+#about figure{
+    float:left;
+    width:50%;
+    text-align:center;
+    margin:0;
 }
-#main{
-    height: 400px;
+*/
+
+#about div{
+    width:50%;
+    float:left;
+}
+
+#about{
     box-shadow: 1px 5px 5px lightgray;
 }
 
 /*Umiejętności*/
 
-#main h3, #umiejetnosci h3, #portfolio h3{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+
+/*
+#skills{
+    text-align:center;
 }
 
-#umiejetnosci{
-    text-align: center;
+#skills .skills-icons figure{
+    display:inline-block;
+    margin:20px;
 }
+*/
 
-#ikony figure{
-    display: inline-block;
-    margin: 20px;
-}
+
 
 
 /* Portfolio */
@@ -160,11 +206,11 @@ span{
 
 #portfolio .mask-content-inner h3{
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #portfolio .mask-content-inner h4{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -173,6 +219,11 @@ span{
 }
 
 /* End Portfolio*/
+
+
+
+
+
 
 /* Contact */
 
