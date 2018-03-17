@@ -24,3 +24,17 @@ for (var i=0; i<liczby.length; i++) {
     console.log(iloczyn); 
 }
 policz(liczby);
+
+
+
+//poprawka blednogenna praktyka
+/*var liczby = [1,3,6,87,456]; 
+  var liczby2 = [456,9,9,54,98];     
+
+
+function pokazTablice ( arr ) {
+    console.log( liczby );
+}
+
+pokazTablice( [liczby2] );
+pokazTablice( ['a', 'b', 'c'] );*/
