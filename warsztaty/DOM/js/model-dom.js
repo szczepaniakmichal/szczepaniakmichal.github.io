@@ -10,7 +10,9 @@
 //console.log( document.documentElement );
 
 //obiekt window
-console.log( window );
+//console.log( window );
+console.log( window.innerWidth );
+console.log( window.innerHeight );
 
 
 
