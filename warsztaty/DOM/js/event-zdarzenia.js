@@ -52,7 +52,7 @@ title.addEventListener( "click", bodyColor);
 //title.removeEventListener( "click", bodyColor);
 
 
-////blokowanie domyślnego działania elementów
+//blokowanie domyślnego działania elementów
 //document.querySelector('.link1').addEventListener('click', function(event){
 //    event.preventDefault();
 //    console.log("Kliknąłem link klasy .link1")
