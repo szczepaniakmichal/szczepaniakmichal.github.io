@@ -5,17 +5,17 @@
 
 var tablica = ["Volvo", "Mazda", "Honda", "Audi"];
 
-//for(var i=0; i<tablica.length; i++){
-//    console.log( tablica[i] );
-//}
+for(var i=0; i<tablica.length; i++){
+    console.log( tablica[i] );
+}
 
-//tablica.forEach( function( element, index ){
-//    console.log( "Index: " + index + " Element: " + element);
-//} );
+tablica.forEach( function( element, index ){
+    console.log( "Index: " + index + " Element: " + element);
+} );
 
 
 
-var iter = 0;
+//var iter = 0;
 //while( iter <= 25 ) {
 //    console.log( "While iteracja nr " + iter );
 //    iter++;
@@ -52,13 +52,13 @@ var iter = 0;
 
 //pętla po obiektach
 
-var obiekt = {
-    imie: "Adam",
-    nazwisko: "Nowacki",
-    wzrost: 182,
-    oczy: "szare",
-}
-
-for( var property in obiekt ){
-    console.log( obiekt[property] );
-}
+//var obiekt = {
+//    imie: "Adam",
+//    nazwisko: "Nowacki",
+//    wzrost: 182,
+//    oczy: "szare",
+//}
+//
+//for( var property in obiekt ){
+//    console.log( obiekt[property] );
+//}
