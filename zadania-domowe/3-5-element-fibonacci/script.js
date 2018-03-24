@@ -13,7 +13,7 @@ function fibo(n){
     console.log(fib[n]);
     return;
 }
-fibo(15);
+fibo(11);
 
 
 

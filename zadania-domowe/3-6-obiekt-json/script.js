@@ -14,7 +14,7 @@
 //});
 
 
-document.getElementsByTagName(‘section‘)[0].nodeType
+
 
 
 
