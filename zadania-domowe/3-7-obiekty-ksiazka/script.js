@@ -5,12 +5,12 @@ class Ksiazka {
         this.przeczytana = przeczytana;
     }
 
-
     opiszKsiazke() {
+
         if (this.przeczytana === true) {
-            console.log("Książka ma tytuł " + this.tytul + " autorem jest " + this.autor + " i została przeczytana ");
+            return "Książka ma tytuł " + this.tytul + " autorem jest " + this.autor + " i została przeczytana ";
         } else {
-            console.log("Książka ma tytuł " + this.tytul + " autorem jest " + this.autor + " i nie została przeczytana ");
+            return "Książka ma tytuł " + this.tytul + " autorem jest " + this.autor + " i nie została przeczytana ";
         }
     }
 }
@@ -21,16 +21,14 @@ var wPustyniIpuszczy = new Ksiazka('W pustyni i puszczy', 'Henryk Sienkiewicz', 
 
 var regal = [];
 
-regal.push(wiedzmin);
-regal.push(bot);
-regal.push(wPustyniIpuszczy);
+regal.push(wiedzmin, bot, wPustyniIpuszczy);
 
 function ilePrzeczytano(zRegalu) {
-    
+
     var lacznie = 0;
-    
+
     for (i = 0; i < regal.length; i++) {
-        
+
         if (regal[i].przeczytana === true) {
             lacznie++;
         }
@@ -38,4 +36,5 @@ function ilePrzeczytano(zRegalu) {
     }
     return lacznie;
 }
-console.log('Ilosc przeczytanych ksiażek: ' + ilePrzeczytano(regal) + '.');
+
+console.log('Ilość przeczytanych ksiażek: ' + ilePrzeczytano(regal) + '.');
