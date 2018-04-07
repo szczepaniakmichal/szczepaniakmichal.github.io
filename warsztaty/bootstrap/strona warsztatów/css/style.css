@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: DroidSerif, Italic;
+}
+
+.white_font{
+    color: #fff;
+}
+
+.text_align{
+    text-align: center;
+}
+
+/*HEADER START*/
+
+#header{
+    background-image: url(../bootstrap-project-photos/img/header/pictures_on_the_wall.jpg);
+    height: 800px;
+    background-size: cover; 
+}
+
+#main-nav a {
+    color: #fff;
+}
+
+#header_paragraf_1{
+    font-size: 30px;
+}
+
+#header_paragraf_2{
+    font-size: 60px;
+}
+
+.center_y{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*HEADER STOP*/
+
+/*SERVICE START*/
+#services{
+    height: 400px;
+    background-color: #f7f7f7;
+}
+
+#services p{
+    position: relative;
+    top: 20%;
+/*    transform: translateY(-50%);*/
+}
+
+#services p 
