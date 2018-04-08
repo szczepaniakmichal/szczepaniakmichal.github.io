@@ -1,6 +1,12 @@
+/*
+body{
+    margin: 0;
+}
+*/
+
 *{
     box-sizing: border-box;
-    font-family: DroidSerif, Italic;
+    font-family: Droid, Serif, Italic;  
 }
 
 .white_font{
@@ -37,18 +43,69 @@
     transform: translateY(-50%);
 }
 
+
+
 /*HEADER STOP*/
 
 /*SERVICE START*/
 #services{
     height: 400px;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 #services p{
     position: relative;
     top: 20%;
-/*    transform: translateY(-50%);*/
+
 }
 
-#services p 
+#services p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#services p:last-child{
+    font-size: 10px;
+}
+
+#services>div>div>div>i{
+    font-size: 40px;
+    background-color: aqua;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    line-height: 70px;
+    
+}
+
+#services>div>div>div>p:last-child{
+    padding-bottom: 70px;
+}
+
+.div_ico{
+    padding: 10px;
+}
+
+/*SERVICE STOP*/
+
+/*PORTFOLIO START*/
+
+#portfolio{
+    height: 600px;
+    background-color: #f7f7f7;
+}
+
+#portfolio>div>div>div>figure>div>img{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.portfolio-image{
+    overflow: hidden;
+    height: 200px;
+}
+
+#portfolio>div>div>div>figure>div>img>figcaption>p{
+    z-index: 999;
+}
