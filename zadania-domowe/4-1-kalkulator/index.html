@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <input id="wyswietlacz" type="text">
-    
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
-    </script>
-    
-     <script src="script.js"></script>
-     
+  
+   <div id="calculator">
+       
+       <div>
+           <input type="text" id="display" placeholder="Cześć : )">
+       </div>
+       
+       <div>
+           <input class="size" type="button" value="7" onclick="getVal(7)">
+           <input class="size" type="button" value="8" onclick="getVal(8)">
+           <input class="size" type="button" value="9" onclick="getVal(9)">
+           <input class="size" type="button" value="-" onclick="getVal('-')">
+       </div>
+       
+       <div>
+           <input class="size" type="button" value="4" onclick="getVal(4)">
+           <input class="size" type="button" value="5" onclick="getVal(5)">
+           <input class="size" type="button" value="6" onclick="getVal(6)">
+           <input class="size" type="button" value="*" onclick="getVal('*')">
+       </div>
+       
+       <div>
+           <input class="size" type="button" value="1" onclick="getVal(1)">
+           <input class="size" type="button" value="2" onclick="getVal(2)">
+           <input class="size" type="button" value="3" onclick="getVal(3)">
+           <input class="size" type="button" value="/" onclick="getVal('/')">
+       </div>
+       
+       <div>
+           <input class="size" type="button" value="0" onclick="getVal(0)">
+           <input class="size" type="button" value="." onclick="getVal('.')">
+           <input class="size" type="button" value="C" onclick="cle()">
+           <input class="size" type="button" value="+" onclick="getVal('+')">
+       </div>
+       
+       <div>
+           <input class="size" type="button" value="=" onclick="calculate()">
+       </div>
+       
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

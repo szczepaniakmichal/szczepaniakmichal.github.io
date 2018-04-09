@@ -1,0 +1,28 @@
+/**{
+    box-sizing: border-box;
+}*/
+
+#display{
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+}
+
+div{
+    width: 100%;
+}
+.size{
+    width: 23%;
+    height: 50px;
+/*    margin: 5px;*/
+/*    font-size: 2em;*/
+/*    text-align: center;*/
+}
+
+#calculator{
+    width: 300px;
+    height: 400px;
+    background-color: deeppink;
+    margin: 0 auto;
+    
+}
