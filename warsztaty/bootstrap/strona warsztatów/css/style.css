@@ -213,4 +213,16 @@ i{
     background-size: cover;
 }
 
+#contact>div>div>div>form>input{
+    margin:10px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact>div>div>div>form>textarea{
+    border-radius: 5px;
+    border: none;
+}
+
 /*CONTACT STOP*/
