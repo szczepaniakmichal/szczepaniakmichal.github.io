@@ -4,7 +4,7 @@ function getVal(x){
 
 function calculate(){
     var display = document.getElementById('display').value;
-    document.getElementById('display').value = eval(display).toFixed(1);  
+    document.getElementById('display').value = eval(display);  
 }
 
 function cle() {
