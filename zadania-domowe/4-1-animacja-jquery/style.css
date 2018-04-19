@@ -1,0 +1,18 @@
+#square{
+    position: absolute;
+    display:none;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    overflow: hidden;
+}
+
+h2{
+    opacity: 0;
+    color: yellow;
+    word-wrap:break-word;
+}
+
+#btn{
+    margin-bottom: 10px;
+}
