@@ -1,0 +1,21 @@
+p:nth-child(odd){
+    background-color: black;
+    color: white;
+
+}
+
+p:nth-child(even){
+    background-color: white;
+    color:black;
+
+}
+
+#boss{
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#up, #down{
+    width: 100%;
+}
