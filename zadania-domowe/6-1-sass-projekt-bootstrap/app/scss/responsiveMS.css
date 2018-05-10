@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  #foto {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsiveMS.css.map */

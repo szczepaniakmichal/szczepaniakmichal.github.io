@@ -5,3 +5,6 @@ warsztaty/portfolio-ver-2/icons/css3.png
 *.svg
 warsztaty/portfolio-ver-2/webfonts/fa-brands-400.woff
 *.eot
+
+
+node_modules/ 
