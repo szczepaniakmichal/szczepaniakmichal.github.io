@@ -106,13 +106,10 @@ img {
 
 /* END PORTFOLIO */
 /* KONTAKT */
-#but {
+#but, #put {
   border: #83d40a 2px solid; }
-  #but:hover {
+  #but:focus, #put:focus {
     background-color: greenyellow; }
-
-input #put .form-control .text-center:hover {
-  border: red; }
 
 /* END KONTAKT */
 /*  FOOTER */

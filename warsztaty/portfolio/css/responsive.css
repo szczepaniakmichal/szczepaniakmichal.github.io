@@ -19,10 +19,11 @@ p{
 
 #main-nav{
     width: 100%;
-    background-color: #fff;
+    background-color:rgb(89, 231, 219);
     position: fixed;
     top:0;
     z-index: 2;
+    padding-left: 0px;  //bootstrap ma padding-left: 15px; i
 }
 #main-nav ul{
     margin: 20px;
@@ -66,7 +67,7 @@ p{
 }
     
 span{
-    color: #1ac056;
+    /* color: #1ac056; */
 }
     
 #fotoDowod{
@@ -108,7 +109,7 @@ span{
 #portfolio .portfolio-items{
     font-size: 0px;
     text-align: center;
-    display: block;
+   /*  display: block; */
 }
 
 .portfolio-item{

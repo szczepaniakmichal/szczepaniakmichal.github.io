@@ -119,11 +119,6 @@ img {
   margin-bottom: 15px;
 }
 
-#portfolio .mask-content-inner h3 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 #portfolio .mask-content-inner h4 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -135,6 +130,14 @@ img {
 
 /* END PORTFOLIO */
 /* KONTAKT */
+#but, #put {
+  border: #83d40a 2px solid;
+}
+
+#but:focus, #put:focus {
+  background-color: greenyellow;
+}
+
 /* END KONTAKT */
 /*  FOOTER */
 #footer {

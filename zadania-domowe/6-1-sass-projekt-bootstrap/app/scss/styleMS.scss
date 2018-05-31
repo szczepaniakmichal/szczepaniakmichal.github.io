@@ -166,16 +166,13 @@ img {
 /* END PORTFOLIO */
 
 /* KONTAKT */
-#but{
+#but, #put{
     border: $border_color 2px solid;
-    &:hover{
+    &:focus{
     background-color: $header_color;
         }
 }
 
-input #put .form-control .text-center:hover{
-border: red;
-}
 /* END KONTAKT */
 
 /*  FOOTER */

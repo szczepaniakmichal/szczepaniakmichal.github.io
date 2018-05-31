@@ -1,11 +1,12 @@
+
+
 function getVal(x){
     document.getElementById('display').value += x;
 }
 
 function calculate(){
     var display = document.getElementById('display').value;
-    document.getElementById('display').value = eval(display);  
-}
+    document.getElementById('display').value = eval(display);
 
 function cle() {
     document.getElementById('display').value = "";
