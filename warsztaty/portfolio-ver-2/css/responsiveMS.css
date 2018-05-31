@@ -5,7 +5,7 @@
 }
 
 @media(max-width:768px){
-    button{
+    #btn_contact{
         width: 100%;
     }
 }

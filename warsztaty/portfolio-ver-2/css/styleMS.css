@@ -12,10 +12,6 @@ img {
     height: auto;
 }
 
-body{
-    background-color: hotpink;
-}
-
 /* END GENERAL STYLE */
 
 /* CLASS */
@@ -90,7 +86,7 @@ body{
     height:350px;
     background-size:cover;
     background-position:center;
-    display:inline-block;
+    display:block;
     width:100%;
     position:relative;
     font-size:initial;
@@ -155,6 +151,22 @@ body{
 /* END PORTFOLIO */
 
 /* KONTAKT */
+#btn_contact.btn-outline-success{
+    color: #adff2f;
+    border-color: #adff2f;
+}
+
+#btn_contact.btn-outline-success:hover, 
+#btn_contact.btn-outline-success:active, 
+#btn_contact.btn-outline-success:focus {
+    color: #fff;
+    background-color: #adff2f;
+    border-color: #adff2f;
+}
+
+#btn_contact.btn-outline-success:focus{
+    box-shadow: 0 0 0 0.2rem rgb(173, 255, 47);
+}
 
 /* END KONTAKT */
 
