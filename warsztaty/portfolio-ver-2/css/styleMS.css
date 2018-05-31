@@ -164,8 +164,13 @@ img {
     border-color: #adff2f;
 }
 
-#btn_contact.btn-outline-success:focus{
+#btn_contact.btn-outline-success:focus,
+.form-control:focus{
     box-shadow: 0 0 0 0.2rem rgb(173, 255, 47);
+}
+
+.form-control:focus {
+    border-color: #adff2f;
 }
 
 /* END KONTAKT */
